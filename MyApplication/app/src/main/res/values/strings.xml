@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="sample_text">This is a sample text to test click listeners for custom textview which contains a link https://github.com/aqeebp Check out the click events now.</string>
 </resources>
