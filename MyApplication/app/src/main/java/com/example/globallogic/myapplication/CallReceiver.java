@@ -151,4 +151,17 @@ public class CallReceiver extends BroadcastReceiver {
         }
 
     }
+
+    private void stopRecordingNew() {
+        try {
+            mRecorder.stop();
+            mRecorder.release();
+            mRecorder = null;
+
+            Log.e("TAG", "stopRecording:Calling ");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+    }
 }
